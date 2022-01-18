@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_top_r16_default">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dialogRv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog_top_r16_white"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:itemCount="3"
+        tools:listitem="@layout/item_menu_dialog_rv_item" />
+
+    <TextView
+        android:id="@+id/cancelTv"
+        style="@style/Theme.Text.H3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_56"
+        android:layout_marginTop="@dimen/dp_8"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="取消"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dialogRv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

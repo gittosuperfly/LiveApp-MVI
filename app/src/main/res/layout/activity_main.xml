@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/homeVP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/feedBtn"
+        style="@style/Theme.Text.H2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_12"
+        android:gravity="center"
+        android:text="为你推荐"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/liveBtn"
+        style="@style/Theme.Text.H2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="@dimen/dp_12"
+        android:gravity="center"
+        android:text="直播广场"
+        android:textColor="@color/text_4"
+        app:layout_constraintStart_toEndOf="@id/feedBtn"
+        app:layout_constraintTop_toTopOf="@id/feedBtn" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="28dp"
+        android:layout_height="3dp"
+        android:background="@drawable/bg_btn_primary"
+        app:layout_constraintEnd_toEndOf="@id/feedBtn"
+        app:layout_constraintStart_toStartOf="@id/feedBtn"
+        app:layout_constraintTop_toBottomOf="@id/feedBtn" />
+
+    <ImageView
+        android:id="@+id/addBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/camera"
+        app:layout_constraintBottom_toBottomOf="@id/feedBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/feedBtn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

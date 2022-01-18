@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  核心强调  -->
+    <dimen name="sp_max">28sp</dimen>
+
+    <!--  标题  -->
+    <dimen name="sp_h1">20sp</dimen>
+    <dimen name="sp_h2">18sp</dimen>
+    <dimen name="sp_h3">16sp</dimen>
+
+    <!--  正文  -->
+    <dimen name="sp_text">14sp</dimen>
+
+    <!--  说明  -->
+    <dimen name="sp_notes">12sp</dimen>
+
+    <!--  Tab  -->
+    <dimen name="sp_tab">10sp</dimen>
+</resources>

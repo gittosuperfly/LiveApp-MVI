@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".feature.live.camera.LiveCameraActivity">
+
+    <me.lake.librestreaming.ws.StreamLiveCameraView
+        android:id="@+id/stream_previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/titleTv"
+        style="@style/Theme.Text.H3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Title" />
+
+    <ImageView
+        android:id="@+id/closeBtn"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="15dp"
+        android:src="@mipmap/close"
+        app:layout_constraintBottom_toBottomOf="@id/titleTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/titleTv" />
+
+
+    <EditText
+        android:id="@+id/titleEdit"
+        style="@style/Theme.Text.H3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_60"
+        android:layout_marginHorizontal="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_40"
+        android:background="@drawable/bg_dialog_r12_cover"
+        android:gravity="center"
+        android:hint="给直播间起个标题吧！"
+        android:textColor="@color/white"
+        android:textColorHint="#88ffffff"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/startBtn"
+        style="@style/Theme.Text.H3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_btn_primary"
+        android:text="开始视频直播"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:textColor="@color/green"
+        style="@style/Theme.Text"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

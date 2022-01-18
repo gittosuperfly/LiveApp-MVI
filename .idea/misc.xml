@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Code/LiveApp/app/src/main/res/drawable-mdpi/ic_add.xml" value="0.228125" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/drawable-mdpi/ic_add1.xml" value="0.228125" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/drawable-mdpi/ic_close.xml" value="0.228125" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/drawable/bg_btn_cancel.xml" value="0.228125" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/drawable/bg_btn_circle_shadow.xml" value="0.228125" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/drawable/bg_btn_login.xml" value="0.228125" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/drawable/bg_btn_primary.xml" value="0.228125" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/drawable/bg_circle_green.xml" value="0.561025641025641" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/drawable/bg_dialog_r12_cover.xml" value="0.3807291666666667" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/drawable/bg_dialog_r12_white.xml" value="0.228125" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/drawable/bg_dialog_top_r16_default.xml" value="0.228125" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/drawable/bg_dialog_top_r16_white.xml" value="0.228125" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/drawable/bg_gradient_v_bgcolor_to_none.xml" value="0.228125" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/layout/activity_live_camera.xml" value="0.2609375" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/layout/activity_live_player.xml" value="0.2609375" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/layout/activity_main.xml" value="0.2609375" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/layout/dialog_bottom_menu.xml" value="0.3645833333333333" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/layout/dialog_confirm.xml" value="0.3645833333333333" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/layout/dialog_loading.xml" value="0.21197916666666666" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/layout/fragment_feed.xml" value="0.4329710144927536" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/layout/fragment_live_plaza.xml" value="0.4329710144927536" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/layout/item_menu_dialog_rv_item.xml" value="0.3645833333333333" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/layout/rv_item_feed.xml" value="0.3700564971751412" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/layout/rv_item_live_list.xml" value="0.5536458333333333" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.561025641025641" />
+        <entry key="..\:/Code/LiveApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.561025641025641" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

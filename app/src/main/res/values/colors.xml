@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!--  文字颜色  -->
+    <color name="text_1">#282828</color>
+    <color name="text_2">#404040</color>
+    <color name="text_3">#666666</color>
+    <color name="text_4">#8f8f8f</color>
+    <color name="text_5">#b0b0b0</color>
+
+    <!--  标准色  -->
+    <color name="black">#000000</color>
+    <color name="black_light">#333333</color>
+    <color name="white">#ffffff</color>
+    <color name="white_1">#99ffffff</color>
+
+    <color name="red">#ff0000</color>
+    <color name="red_light">#FF3E3E</color>
+
+    <color name="pink_dark">#FF187C</color>
+    <color name="pink_light">#fd4c5c</color>
+    <color name="orange_red">#fe5001</color>
+
+    <color name="yellow">#ffcc30</color>
+    <color name="green">#3acacf</color>
+    <color name="blue">#119CFF</color>
+    <color name="purple">#8a54ff</color>
+
+    <color name="none">#00000000</color>
+    <color name="cover_1">#22000000</color>
+    <color name="cover_2">#55000000</color>
+    <color name="cover_3">#88000000</color>
+    <color name="cover_4">#aa000000</color>
+    <color name="cover_5">#dd000000</color>
+    <color name="background">#F9F9FC</color>
+
+    <!--  单色图标颜色  -->
+    <color name="icon_color">@color/black_light</color>
+
+    <!--  导航栏图标 选择状态  -->
+    <color name="bar_icon_line_select">@color/theme</color>
+    <color name="bar_icon_fill_select">@color/theme</color>
+    <color name="bar_icon_mantle_select">@color/none</color>
+
+    <!--  导航栏图标 未选择状态  -->
+    <color name="bar_icon_line_un">@color/text_2</color>
+    <color name="bar_icon_fill_un">@color/none</color>
+    <color name="bar_icon_mantle_un">@color/none</color>
+
+    <!--  主题色  -->
+    <color name="theme">@color/pink_light</color>
+
+</resources>
